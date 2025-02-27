@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Aula2 {
+public class Ex2 {
     public static void main(String[] args) 
     {
       Scanner teclado = new Scanner(System.in);
