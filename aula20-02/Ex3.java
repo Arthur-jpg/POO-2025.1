@@ -10,6 +10,7 @@ public class Ex3 {
       salario = teclado.nextFloat();
       System.out.println("Entre o percentual de aumento: ");
       percentual = teclado.nextFloat();
+      percentual = percentual/100;
       resultado = salario * (1+percentual);
       System.out.println(resultado);
     }

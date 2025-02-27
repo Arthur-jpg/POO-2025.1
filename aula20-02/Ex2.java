@@ -12,8 +12,10 @@ public class Ex2 {
       System.out.println("Digite o primeiro segundo: ");
       b = teclado.nextFloat();
       
-      float soma = a + b;
-      System.out.println(soma);
+      System.out.println(a + b);
+      System.out.println(a - b);
+      System.out.println(a / b);
+      System.out.println(a * b);;
       
     }
 }
