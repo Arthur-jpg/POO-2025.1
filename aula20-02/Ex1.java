@@ -1,3 +1,4 @@
+/*Exercício 1 */
 import java.util.*;
 
 public class Ex1 {
@@ -12,10 +13,10 @@ public class Ex1 {
       System.out.println("Digite o primeiro segundo: ");
       b = teclado.nextInt();
       
-      System.out.println(a + b);
-      System.out.println(a - b);
-      System.out.println(a / b);
-      System.out.println(a * b);
+      System.out.println("Soma: " + (a + b));
+      System.out.println("Sub: " + (a - b));
+      System.out.println("Divsao: " + (a / b));
+      System.out.println("Multiplicaçao: " + (a * b));
       
     }
 }

@@ -1,0 +1,414 @@
+/*Exercício 1 */
+import java.util.*;
+public class Ex1 {
+    public static void main(String[] args) 
+    {
+      Scanner teclado = new Scanner(System.in);
+      int a, b;
+      
+    
+      System.out.println("Digite o primeiro numero: ");
+      a = teclado.nextInt();
+      System.out.println("Digite o primeiro segundo: ");
+      b = teclado.nextInt();
+      
+      System.out.println("Soma: " + (a + b));
+      System.out.println("Sub: " + (a - b));
+      System.out.println("Divsao: " + (a / b));
+      System.out.println("Multiplicaçao: " + (a * b));
+      
+    }
+}
+
+/*Exercício 2 */
+import java.util.*;
+
+public class Ex2 {
+    public static void main(String[] args) 
+    {
+      Scanner teclado = new Scanner(System.in);
+      float a, b;
+      
+    
+      System.out.println("Digite o primeiro numero: ");
+      a = teclado.nextFloat();
+      System.out.println("Digite o primeiro segundo: ");
+      b = teclado.nextFloat();
+      
+      System.out.println("Soma: " + (a + b));
+      System.out.println("Sub: " + (a - b));
+      System.out.println("Divsao: " + (a / b));
+      System.out.println("Multiplicaçao: " + (a * b));
+      
+    }
+}
+
+/*Exercício 3 */
+import java.util.*;
+public class Ex3 {
+    public static void main(String[] args) 
+    {
+      Scanner teclado = new Scanner(System.in);
+      System.out.println("Entre o salário: ");
+      float salario, resultado;
+      float percentual;
+      salario = teclado.nextFloat();
+      System.out.println("Entre o percentual de aumento: ");
+      percentual = teclado.nextFloat();
+      percentual = percentual/100;
+      resultado = salario * (1+percentual);
+      System.out.println(resultado);
+    }
+}
+
+/*Exercício 4 */
+import java.util.*;
+public class Ex4 {
+    public static void main(String[] args) 
+    {
+      Scanner teclado = new Scanner(System.in);
+      System.out.println("Entre o raio do circulo: ");
+      float raio, perimetro, pi;
+      double area;
+      raio = teclado.nextFloat();
+      pi = 3.14f; 
+      perimetro = 2 * pi * raio;
+      area = pi * Math.pow(raio, 2);
+      System.out.println("Perimetro: ");
+      System.out.println(perimetro);
+      System.out.println("Area: ");
+      System.out.println(area);
+    }
+}
+
+/*Exercício 5 */
+import java.util.*;
+public class Ex5 {
+    public static void main(String[] args) 
+    {
+        int t;
+        float segundos, minutos, horas;
+
+        Scanner teclado = new Scanner(System.in);
+        System.out.println("Entre segundos: ");
+        t = teclado.nextInt();
+        segundos = t%60;
+        minutos = (t%3600)/60;
+        horas = (t/3600);
+    
+        System.out.println("Horas: " + horas);
+        System.out.println("Minutos: " + minutos);
+        System.out.println("Segundos: " + segundos);  
+    }
+}
+
+/*Exercício 6 */
+import java.util.*;
+public class Ex6 {
+    public static void main(String[] args) 
+    {
+        float distancia, tempo, gasolina, velocidade, consumo;
+        Scanner teclado = new Scanner(System.in);
+
+        System.out.println("Entre uma distância em km: ");
+        distancia = teclado.nextFloat();
+        System.out.println("Entre um tempo em horas: ");
+        tempo = teclado.nextFloat();
+        System.out.println("Entre a quantiade de gasolina em litros:  ");
+        gasolina = teclado.nextFloat();
+
+        velocidade = distancia/tempo;
+        consumo = distancia/gasolina;
+
+        
+        System.out.println(velocidade + "km/h");
+        System.out.println(consumo + "km/l");
+
+      
+    }
+}
+
+/*Exercício 7 */
+import java.util.*;
+public class Ex7 {
+    public static void main(String[] args) 
+    {
+        int numero, resultado;
+
+        Scanner teclado = new Scanner(System.in);
+    
+        System.out.println("Entre um número: ");
+        numero = teclado.nextInt();
+        resultado = numero%2;
+
+        if (resultado == 0) {
+            System.out.println("Esse número é par: ");
+        } else {
+            System.out.println("Esse número é ímpar: ");
+            
+        }
+      
+    }
+}
+
+/*Exercício 8 */
+import java.util.*;
+public class Ex8 {
+    public static void main(String[] args) 
+    {
+        Scanner teclado = new Scanner(System.in);
+        float killowats, valor, resultado;
+        System.out.println("Entre a quantiade de kilowats consumido: ");
+        killowats = teclado.nextFloat();
+        System.out.println("Entre o valor do killowat: ");
+        valor = teclado.nextFloat();
+        if (killowats < 150) {
+            resultado = killowats * valor;
+            resultado = (float) (resultado * 0.9);
+            System.out.println("Seu consumo foi inferior a 150kw, receba um desconto de 10%");
+            System.out.println(resultado);
+        } else {
+            resultado = killowats * valor;
+            System.out.println(resultado);
+        }
+    }
+}
+
+/*Exercício 9 */
+import java.util.*;
+public class Ex9 {
+    public static void main(String[] args) 
+    {
+        Scanner teclado = new Scanner(System.in);
+        float numero, numeroInteiro, parteDecimal;
+
+        System.out.println("Entre um número com casa decimal: ");
+        numero = teclado.nextFloat();
+        numeroInteiro = (int) numero;
+        
+        parteDecimal = numero - numeroInteiro;
+        
+        System.out.println("O número arrdondado é: ");
+        if (parteDecimal < 0.5){
+            System.out.println(numeroInteiro);
+        } else if (parteDecimal >= 0.5) {
+            numeroInteiro += 1;
+            System.out.println(numeroInteiro);
+        }
+        
+
+
+      
+    }
+}
+
+/*Exercício 10 */
+import java.util.*;
+public class Ex10 {
+    public static void main(String[] args) 
+    {
+        Scanner teclado = new Scanner(System.in);
+        int numero, numero2, numero3;
+
+        numero = 10;
+
+        System.out.println("Entre um número: ");
+        numero2 = teclado.nextInt();
+        System.out.println("Entre outro número maior: ");
+        numero3 = teclado.nextInt();
+
+        if (numero <= numero3 && numero >= numero2) {
+            System.out.println("O número está no intervalo, ele é " + numero);
+        } else if (numero < numero2) {
+            System.out.println("O número está fora do intervalo para baixo, o limite inferior é " + numero2 + " e o número é "  + 10);
+        } else if (numero > numero3) {
+            System.out.println("O número está fora do intervalo para cima, o limite superior é " + numero2 + " e o número é "  + 10);
+
+        }
+      
+    }
+}
+
+/*Exercício 11 */
+import java.util.*;
+public class Ex11 {
+    public static void main(String[] args) 
+    {
+        Scanner teclado = new Scanner(System.in);
+
+        System.out.println("Entre um operando: ");
+        String operando = teclado.next();
+
+        int numero1, numero2, numero3;
+        System.out.println("Entre um número: ");
+        numero1 = teclado.nextInt();
+        System.out.println("Entre outro número: ");
+        numero2 = teclado.nextInt();
+
+        System.out.println("A expressão é: " + numero1 + operando + numero2);
+        System.out.println("Resultado: ");
+        switch (operando) {
+            case "/": System.out.println(numero1 / numero2); 
+                break;
+            case "*": System.out.println(numero1 * numero2); 
+                break;
+            case "+": System.out.println(numero1 + numero2); 
+                break;
+            case "-": System.out.println(numero1 - numero2); 
+                break;
+
+                
+        
+            default: System.out.println("Entre um operador válido");
+                break;
+        }
+
+      
+    }
+}
+
+/*Exercício 12 */
+import java.util.*;
+public class Ex12 {
+    public static void main(String[] args) 
+    {
+        Scanner teclado = new Scanner(System.in);
+
+        int a,b, restoA, restoB;
+        System.out.println("Entre um número(a): ");
+        a = teclado.nextInt();
+        System.out.println("Entre um número(b): ");
+        b = teclado.nextInt();
+
+        if (a < b) {
+            restoA = a%2;
+            if (restoA == 0) {
+                for (int i = 0; a<b-2; ++i) {
+                    a = a + 2;
+                    System.out.println(a);
+
+                }
+            } else {
+                a += 1;
+                System.out.println(a);
+                for (int i = 0; a<b-2; ++i) {
+                    a = a + 2;
+                    System.out.println(a);
+
+                }
+            }
+        } else if (a > b) {
+            restoA = a%2;
+            if (restoA == 0) {
+                for (int i = 0; a-2>b; --i) {
+                    a = a - 2;
+                    System.out.println(a);
+
+                }
+            } else {
+                a -= 1;
+                System.out.println(a);
+                for (int i = 0; a-2<b; --i) {
+                    a = a - 2;
+                    System.out.println(a);
+
+                }
+            }
+        }
+
+      
+    }
+}
+
+/*Exercício 13 */
+import java.util.*;
+public class Ex13 {
+    public static void main(String[] args) 
+    {
+        Scanner teclado = new Scanner(System.in);
+        int alunos;
+        float nota, somaNotas, media;
+        System.out.println("Entre a quantidade de alunos: ");
+        alunos = teclado.nextInt();
+        somaNotas = 0;
+
+        for (int i = 0; i<=alunos-1; ++i){
+            System.out.println("Entre a nota do aluno" + (i+1));
+            nota = teclado.nextFloat();
+            somaNotas = somaNotas + nota;
+            System.out.println("Soma: " + somaNotas);
+        }
+
+        media = somaNotas / (float)alunos;
+        System.out.println("Média das notas é: " + media);
+      
+    }
+}
+
+/*Exercício 14 */
+import java.util.*;
+public class Ex14 {
+    public static void main(String[] args) 
+    {
+        Scanner teclado = new Scanner(System.in);
+        int contagem = 0;
+        int entrada = 0;
+        int soma = 1;
+        int maior = 0;
+        int menor = 10;
+        int stop = -1;
+        while (entrada != -1){
+            System.out.println("Entre uma nota de aluno: ");
+            entrada = teclado.nextInt();
+            contagem += 1;
+            if (entrada > maior ){
+                maior = entrada;
+            }
+            if (entrada < menor && entrada != stop){
+                menor = entrada;
+            }
+            soma = soma + entrada;
+        }
+        System.out.println(soma);
+        System.out.println(contagem-1);
+        int media = soma / (contagem - 1);
+
+        System.out.println("Quantidade de alunos: " + (contagem-1));
+        System.out.println("Media das notas: " + media);
+        System.out.println("Maior nota: " + maior);
+        System.out.println("Menor nota: " + menor);
+
+    }
+}
+
+/*Exercício 15 */
+import java.util.*;
+public class Ex15 {
+    public static void main(String[] args) 
+    {
+        Scanner teclado = new Scanner(System.in);
+        System.out.println("Entre algumm caracter: ");
+        char entrada = teclado.nextLine().charAt(0);
+        int contagemVogais = 0;
+        int demais = 0;
+        int contagemNumeros = 0;
+
+        while (entrada != '.'){
+            if (entrada == 'a' || entrada == 'e' || entrada == 'i' || entrada == 'o' || entrada == 'u') {
+                contagemVogais += 1;
+            } else if (entrada == '1' || entrada == '2' || entrada == '3' || entrada == '4' || entrada == '5' || entrada == '6' || entrada == '7' || entrada == '8' || entrada == '9' || entrada == '0'){
+                contagemNumeros += 1;
+            } else {
+                demais += 1;
+            }
+
+            entrada = teclado.nextLine().charAt(0);
+
+        }
+
+        System.out.println("Vogais: " + contagemVogais);
+        System.out.println("Numeros: " + contagemNumeros);
+        System.out.println("Demais: " + demais);
+
+    }
+}

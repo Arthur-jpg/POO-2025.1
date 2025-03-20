@@ -17,12 +17,6 @@ public class Ex7 {
             System.out.println("Esse número é ímpar: ");
             
         }
-
-
-        
-
-
-
       
     }
 }
