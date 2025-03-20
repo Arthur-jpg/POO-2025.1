@@ -17,7 +17,11 @@ public class Main {
         int altura = teclado.nextInt();
 
         Retangulo r1 = new Retangulo(x,y,largura,altura);
-        System.out.println(r1);
-
+        r1.mover(10, 10);
+        r1.desenhar();
+        r1.redimensionar(20, 20);
+        r1.desenhar();
+        r1.dividir(2,2);
+        r1.desenhar();
     }
 }
