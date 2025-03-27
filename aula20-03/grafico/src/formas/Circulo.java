@@ -15,6 +15,11 @@ public class Circulo {
         this.y = cordenada;
         this.raio = raio;
     }
+    public Circulo (Circulo outroCirculo) {
+        this.x = outroCirculo.x;
+        this.y = outroCirculo.y;
+        this.raio = outroCirculo.raio;
+    }
 
     public void desenhar() {
         System.out.println("x:" + x + " y:" + y + " raio:" + raio);
@@ -24,13 +29,18 @@ public class Circulo {
         return this.x;
     }
     public void setX(int x) {
-        this.x = x;
+        if (x > 0){
+            this.x = x;
+        }
     }
     public int getY() {
         return this.y;
     }
     public void setY(int y) {
-        this.y = y;
+        if (y > 0) {
+
+            this.y = y;
+        }
     }
     public int getRaio() {
         return this.raio;
