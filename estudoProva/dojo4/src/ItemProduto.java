@@ -30,9 +30,10 @@ public class ItemProduto {
     }
 
     public void exibirInformacoes() {
-        System.out.println("Nome produto: " + nomeProduto);
-        System.out.println("Quantidade: " + quantidadeComprada);
+        System.out.println("Nome produto: " +  nomeProduto);
+        System.out.printf("Quantidade: %d\n", quantidadeComprada);
         System.out.println("Preço unitário: " + precoUnitario);
         System.out.println("Subtotal: " + subtotal);
     }
+
 }
