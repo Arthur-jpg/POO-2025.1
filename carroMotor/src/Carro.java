@@ -11,13 +11,13 @@ public class Carro {
     public float velocidadeMaxima() {
         if (motor.getCilindrada() <= 1.0) {
             return  140;
-        } else if (motor.getCilindrada() > 1.0 && motor.getCilindrada() <= 1.6) {
+        } else if (motor.getCilindrada() > 1.0f && motor.getCilindrada() <= 1.6f) {
             return 180;
-        } else if (motor.getCilindrada() > 1.6 && motor.getCilindrada() <= 2.0) {
+        } else if (motor.getCilindrada() > 1.6f && motor.getCilindrada() <= 2.0f) {
             return 220;
-        } else {
+        } else if (motor.getCilindrada() > 2.0f){
             return 260;
-        }
+        } else return 0;
     }
 
     public void exibirDados() {
