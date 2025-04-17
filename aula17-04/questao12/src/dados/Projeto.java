@@ -34,6 +34,7 @@ public class Projeto {
     public boolean removerMembro(String nome, Date nascimento){
         for (int i = 0; i<qtdDeMembros; i++){
             if(membros[i].getName().equals(nome) && membros[i].getDataDeNascimento().equals(nascimento)){
+                custo -= membros[i].getSalario();
                 membros[i].setProjeto(null);
                 membros[i] = membros[qtdDeMembros - 1];
                 membros[qtdDeMembros - 1] = null;

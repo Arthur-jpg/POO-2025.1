@@ -15,6 +15,7 @@ public class Main {
         Projeto p1 = new Projeto("Eng Software", 30);
 
         p1.addMembro(m1);
+        p1.removerMembro("Arthur", d1);
         p1.addMembro(m2);
         p1.imprimir();
     }
