@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/dojoImpressoraClasse.iml" filepath="$PROJECT_DIR$/dojoImpressoraClasse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/heranca.iml" filepath="$PROJECT_DIR$/heranca.iml" />
     </modules>
   </component>
 </project>
