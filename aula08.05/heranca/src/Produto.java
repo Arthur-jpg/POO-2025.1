@@ -20,8 +20,10 @@ public class Produto {
         } else {
             if (localizacao != this.localizacao) {
                 frete = (peso * 3.5f) + 10;
+                System.out.println(frete);
             } else {
                 frete = peso * 3.5f;
+                System.out.println(frete);
             }
         }
 
