@@ -10,6 +10,7 @@ public class ContaEspecial extends Conta{
     }
 
     public boolean sacar(float valor) {
+        System.out.println("Estou sacando da conta especial");
         float custoSaque = 0f;
         if (this.cliente.ehVip()){
             custoSaque = 1.5f;
