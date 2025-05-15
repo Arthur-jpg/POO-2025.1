@@ -14,8 +14,23 @@ public class Cliente {
     }
 
     // aqui você vai add uma conta, para criar a conta vai ser fora de cliente
-    public void adicionarNovaConta(Conta c) {
+    public boolean adicionarNovaConta(Conta c) {
+        for (int i = 0; i < contas.length; i++){
+            if (contas[i] instanceof ContaPoupanca){
+                if (c instanceof ContaPoupanca){
+                    return false;
+                            //dever de casa
+                }
+            }
+        }
+        for (int i = 0; i < contas.length; i++){
+            if (this.contas[i] == null) {
+                contas[i] = c;
+                return true;
+            }
 
+        }
+        return false;
     }
 
     public boolean ehVip() {

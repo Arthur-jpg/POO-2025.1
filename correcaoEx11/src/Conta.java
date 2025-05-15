@@ -17,6 +17,7 @@ public class Conta {
         this.numero = qtdContas;
         this.saldo = saldo;
         this.cliente = cliente;
+        this.cliente.adicionarNovaConta(this);
 
     }
 

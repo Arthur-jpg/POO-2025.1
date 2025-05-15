@@ -19,6 +19,12 @@ public class Main {
             contas[i].sacar(10);
             System.out.println(contas[i].consultarSaldo());
             System.out.println("---------------");
+
+            if (contas[i] instanceof  ContaPoupanca){
+                ((ContaPoupanca) contas[i]).render();
+            } else if(contas[i] instanceof ContaInvestimento){
+                ((ContaInvestimento contas[i].rnder());
+            }
         }
 
 

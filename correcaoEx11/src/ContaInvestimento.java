@@ -10,4 +10,7 @@ public class ContaInvestimento extends Conta{
         System.out.println("Ação não possível de ser realizada");
         return false;
     }
+    public void render() {
+
+    }
 }
