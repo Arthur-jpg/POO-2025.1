@@ -14,7 +14,11 @@ public class Cliente {
     }
 
     // aqui você vai add uma conta, para criar a conta vai ser fora de cliente
-    public void adicionarNovaConta() {
+    public void adicionarNovaConta(Conta c) {
 
+    }
+
+    public boolean ehVip() {
+        return ehVip;
     }
 }

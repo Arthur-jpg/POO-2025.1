@@ -36,6 +36,23 @@ public class Conta {
     }
 
 
+    public boolean sacar(float valor) {
+        if (valor <= 0) {
+            return false;
+        }
+        float custoSaque = 0f;
+        if (this.cliente.ehVip()){
+            custoSaque = 1.5f;
+        }
+
+        if (valor <= this.saldo + custoSaque) {
+            this.saldo -= valor + custoSaque;
+            return true;
+        }
+        return false;
+    }
+
+
 
 
 }
