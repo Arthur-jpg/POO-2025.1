@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/aula17-04/DOJO/DOJO.iml" filepath="$PROJECT_DIR$/aula17-04/DOJO/DOJO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/POO-2025.1.iml" filepath="$PROJECT_DIR$/POO-2025.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula20-03/aula20-03.iml" filepath="$PROJECT_DIR$/aula20-03/aula20-03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula22.05/aula22.05.iml" filepath="$PROJECT_DIR$/aula22.05/aula22.05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula08.05/calculoIr/calculoIr.iml" filepath="$PROJECT_DIR$/aula08.05/calculoIr/calculoIr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/carroMotor/carroMotor.iml" filepath="$PROJECT_DIR$/carroMotor/carroMotor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/correcaoEx11/correcaoEx11.iml" filepath="$PROJECT_DIR$/correcaoEx11/correcaoEx11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/estudoProva/dojo1/dojo1.iml" filepath="$PROJECT_DIR$/estudoProva/dojo1/dojo1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/estudoProva/dojo2/dojo2.iml" filepath="$PROJECT_DIR$/estudoProva/dojo2/dojo2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/estudoProva/dojo3/dojo3.iml" filepath="$PROJECT_DIR$/estudoProva/dojo3/dojo3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/estudoProva/dojo4/dojo4.iml" filepath="$PROJECT_DIR$/estudoProva/dojo4/dojo4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dojoEcommerce/dojoEcommerce.iml" filepath="$PROJECT_DIR$/dojoEcommerce/dojoEcommerce.iml" />
+      <module fileurl="file://$PROJECT_DIR$/editorGrafico/editorGrafico.iml" filepath="$PROJECT_DIR$/editorGrafico/editorGrafico.iml" />
+      <module fileurl="file://$PROJECT_DIR$/estudoDojo/estudoDojo.iml" filepath="$PROJECT_DIR$/estudoDojo/estudoDojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/estudoProva/exercicio8/exercicio10.iml" filepath="$PROJECT_DIR$/estudoProva/exercicio8/exercicio10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula27-03/exercicio7/exercicio7.iml" filepath="$PROJECT_DIR$/aula27-03/exercicio7/exercicio7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula27-03/exercicio8/exercicio8.iml" filepath="$PROJECT_DIR$/aula27-03/exercicio8/exercicio8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/estudoProva/exercicio7/exercicio9.iml" filepath="$PROJECT_DIR$/estudoProva/exercicio7/exercicio9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/estudoDojo2/grafico/grafico.iml" filepath="$PROJECT_DIR$/estudoDojo2/grafico/grafico.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula08.05/heranca/heranca.iml" filepath="$PROJECT_DIR$/aula08.05/heranca/heranca.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula17-04/questao10/questao10.iml" filepath="$PROJECT_DIR$/aula17-04/questao10/questao10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula17-04/questao12/questao12.iml" filepath="$PROJECT_DIR$/aula17-04/questao12/questao12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/estudoProva/questoes1-15/questoes1-15.iml" filepath="$PROJECT_DIR$/estudoProva/questoes1-15/questoes1-15.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula08.05/untitled/untitled.iml" filepath="$PROJECT_DIR$/aula08.05/untitled/untitled.iml" />
+      <module fileurl="file://$PROJECT_DIR$/estudoDojo2/untitled/untitled2.iml" filepath="$PROJECT_DIR$/estudoDojo2/untitled/untitled2.iml" />
+    </modules>
+  </component>
+</project>
