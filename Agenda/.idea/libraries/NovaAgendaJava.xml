@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="NovaAgendaJava">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/NovaAgendaJava.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
